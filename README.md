@@ -1,6 +1,35 @@
-# Assesment
+Overview
+The Appointment Dashboard UI is a responsive frontend application built using Angular, Angular Material, and Tailwind CSS. It replicates a patient management interface with a focus on clean UI, reusable components, and static data simulation.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+It includes two primary views:
+
+A dashboard for managing patient appointments.
+
+A form for registering or editing a patient's visit.
+
+This project was completed as part of a frontend assessment challenge and showcases attention to design fidelity, responsiveness, and modular structure.
+
+✨ Features
+Dashboard Overview
+View upcoming and past appointments with sortable, filterable tables.
+
+Header & Subheader Layout
+Reusable header and subheader components for consistent layout across screens.
+
+Appointment Model (Static Data)
+Structured static JSON data simulating appointments with fields like date, time, patient name, and doctor.
+
+Visit Form
+A reactive form to register or edit visit details with proper validations and material inputs.
+
+Reusable Components
+Created modular Angular components like AppointmentCard, VisitForm, and Header.
+
+Responsive Design
+Optimized for all screen sizes using Tailwind's utility classes and Angular Material grid layout.
+
+Styling Consistency
+Ensured consistent spacing, fonts, and component alignment with Figma reference using Tailwind CSS.
 
 ## Development server
 
