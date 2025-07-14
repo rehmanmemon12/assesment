@@ -1,0 +1,90 @@
+// Header component styles
+.user-dropdown {
+  .mat-mdc-menu-panel {
+    min-width: 280px;
+    max-width: 320px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    z-index: 1000;
+  }
+
+  .mat-mdc-menu-content {
+    padding: 0;
+  }
+
+  .mat-mdc-menu-item {
+    line-height: 1.5;
+    height: auto;
+    padding: 0;
+    min-height: 40px;
+
+    &:hover {
+      background-color: #f9fafb;
+    }
+  }
+}
+
+// Search input styling
+.search-container {
+  .search-input {
+    padding-right: 40px;
+
+    &:focus {
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    }
+  }
+}
+
+// Ensure proper z-index for overlays
+header {
+  position: relative;
+  z-index: 50;
+}
+
+// Fix for mat-menu positioning
+.cdk-overlay-container {
+  z-index: 1000;
+}
+
+// User menu header styling
+.user-menu-header {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+
+  .user-avatar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+    mat-icon {
+      color: white;
+    }
+  }
+}
+
+// Menu items styling
+.menu-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 12px 16px;
+  text-align: left;
+  transition: background-color 0.2s ease;
+  background-color: white !important;
+
+  &:hover {
+    background-color: #f3f4f6;
+  }
+
+  mat-icon {
+    margin-right: 12px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+// Separator styling
+.menu-separator {
+  height: 1px;
+  background-color: #e5e7eb;
+  margin: 8px 0;
+}

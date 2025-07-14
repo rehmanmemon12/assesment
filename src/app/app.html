@@ -1,0 +1,7 @@
+<div class="min-h-screen bg-gray-50">
+  <app-header (searchResults)="headerService.searchFromHeader($event)" [searchValue]="headerService.search">
+  </app-header>
+  <app-sub-header>
+  </app-sub-header>
+  <router-outlet />
+</div>
